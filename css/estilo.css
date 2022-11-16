@@ -1,19 +1,16 @@
-
 body {
   margin: 0px;
   padding: 0px;
-
   background-color: beige;
 }
 
 header {
-  display:flex;
-  justify-content:space-between;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   background-color: bisque;
   padding: 20px;
 }
-
 
 a {
   list-style: none;
@@ -23,11 +20,14 @@ a {
   font-size: 20px;
   color: blueviolet;
 }
+a:hover {
+  background-color: aqua;
+}
 
 h1.titulo {
   text-align: center;
   font-size: 5rem;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   /* background-color: blanchedalmond; */
   color: blueviolet;
 }
@@ -43,17 +43,15 @@ p {
 }
 
 .parrafo {
-color: rgb(207, 11, 11);
-background-color: bisque;
-text-align: center;
-}
-
-  li {
-  display: inline-flex;
+  color: rgb(207, 11, 11);
+  background-color: bisque;
   text-align: center;
 }
 
-
+li {
+  display: inline-flex;
+  text-align: center;
+}
 
 img.logo {
   width: 100px;
@@ -65,45 +63,37 @@ div.img_turismo {
 }
 
 img.img_turismo {
-border-radius: 50px;
+  border-radius: 50px;
 }
+
 div.img_argentina {
   display: flex;
   justify-content: center;
-  
- 
 }
 
 img.img_argentina {
-border-radius: 100px;
-height: 500px;
-
+  border-radius: 100px;
+  height: 500px;
 }
 
 div.img_turismo {
   display: flex;
   justify-content: center;
-  
- 
 }
 
 img.img_galeria {
-border-radius: 100px;
-height: 500px;
-
+  border-radius: 100px;
+  height: 500px;
 }
 
 footer {
   padding: 20px;
-}   
-
-footer ul{
+}
+footer ul {
   display: flex;
   justify-content: center;
-
 }
-
-footer ul li a{
+footer ul li a {
   color: white;
   font-weight: bold;
   width: 100px;
@@ -117,14 +107,11 @@ p.parrafo_section_uno, p.parrafo_section_dos, p.parrafo_main {
   font-size: 30px;
 }
 
-
 div.img_ofertas {
   display: flex;
   justify-content: center;
- width: 2000px;
- height: 300px;
- 
-  
+  width: 2000px;
+  height: 300px;
 }
 
 form {
@@ -133,26 +120,14 @@ form {
   padding: 20px;
   border-radius: 50px;
   font-size: 30px;
-  background-color:aqua;
-
-
+  background-color: aqua;
 }
+
 h1.formulario {
-  
   text-align: center;
   font-size: 3rem;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   color: brown;
 }
 
-
-
-
-
-
-
-
-
- 
-
-  
+/*# sourceMappingURL=estilo.css.map */
