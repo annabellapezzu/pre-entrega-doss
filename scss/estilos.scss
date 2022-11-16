@@ -1,3 +1,6 @@
+$color-principal: bisque;
+$tam-fuente: 25px;
+
 body {
     margin: 0px;
     padding: 0px;
@@ -8,7 +11,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: bisque;
+    background-color: $color-principal;
     padding: 20px;
   }
   
@@ -17,7 +20,7 @@ body {
     text-decoration: none;
     margin-left: 10px;
     padding: 15px;
-    font-size: 20px;
+    font-size: $tam-fuente;
     color: blueviolet;
     &:hover {
         background-color: aqua;
@@ -107,7 +110,7 @@ body {
   
   p {
     &.parrafo_section_uno, &.parrafo_section_dos, &.parrafo_main {
-      font-size: 30px;
+      font-size:$tam-fuente - 5px;
     }
   }
   

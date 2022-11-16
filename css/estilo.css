@@ -17,7 +17,7 @@ a {
   text-decoration: none;
   margin-left: 10px;
   padding: 15px;
-  font-size: 20px;
+  font-size: 25px;
   color: blueviolet;
 }
 a:hover {
@@ -104,7 +104,7 @@ footer ul li a {
 }
 
 p.parrafo_section_uno, p.parrafo_section_dos, p.parrafo_main {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 div.img_ofertas {
