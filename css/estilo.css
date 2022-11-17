@@ -6,29 +6,6 @@ header {
   padding: 20px;
 }
 
-body {
-  margin: 0px;
-  padding: 0px;
-  background-color: beige;
-}
-
-footer {
-  padding: 20px;
-}
-footer ul {
-  display: flex;
-  justify-content: center;
-}
-footer ul li a {
-  color: white;
-  font-weight: bold;
-  width: 100px;
-  background-color: darksalmon;
-  padding: 20px;
-  border-radius: 15px;
-  gap: 10px;
-}
-
 .navbar-nav {
   font-size: 20px;
   background-color: bisque;
@@ -43,6 +20,12 @@ footer ul li a {
 }
 .navbar-nav a:hover {
   background-color: aqua;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: beige;
 }
 
 h1.titulo {

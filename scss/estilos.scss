@@ -3,22 +3,7 @@
 
   
  
-  .navbar-nav { font-size: $tam-fuente - 5px;
-    background-color: $color-principal;
   
-
-  
-  a {
-    list-style: none;
-    text-decoration: none;
-    margin-left: 10px;
-    padding: 15px;
-    font-size: $tam-fuente;
-    color: blueviolet;
-    &:hover {
-        background-color: aqua;
-  }
-} }
   h1.titulo {
     text-align: center;
     font-size: 5rem;
