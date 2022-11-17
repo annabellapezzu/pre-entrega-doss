@@ -1,15 +1,32 @@
-body {
-  margin: 0px;
-  padding: 0px;
-  background-color: beige;
-}
-
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: bisque;
   padding: 20px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: beige;
+}
+
+footer {
+  padding: 20px;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+footer ul li a {
+  color: white;
+  font-weight: bold;
+  width: 100px;
+  background-color: darksalmon;
+  padding: 20px;
+  border-radius: 15px;
+  gap: 10px;
 }
 
 .navbar-nav {
@@ -88,23 +105,6 @@ div.img_turismo {
 img.img_galeria {
   border-radius: 100px;
   height: 500px;
-}
-
-footer {
-  padding: 20px;
-}
-footer ul {
-  display: flex;
-  justify-content: center;
-}
-footer ul li a {
-  color: white;
-  font-weight: bold;
-  width: 100px;
-  background-color: darksalmon;
-  padding: 20px;
-  border-radius: 15px;
-  gap: 10px;
 }
 
 p.parrafo_section_uno, p.parrafo_section_dos, p.parrafo_main {

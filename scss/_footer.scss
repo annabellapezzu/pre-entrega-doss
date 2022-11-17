@@ -1,0 +1,21 @@
+ 
+
+footer {
+    padding: 20px;
+  
+    ul {
+      display: flex;
+      justify-content: center;
+  
+      li a {
+        color: white;
+        font-weight: bold;
+        width: 100px;
+        background-color: darksalmon;
+        padding: 20px;
+        border-radius: 15px;
+        gap: 10px;
+      }
+    }
+  }
+

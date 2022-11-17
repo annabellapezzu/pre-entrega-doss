@@ -1,19 +1,8 @@
-$color-principal: bisque;
-$tam-fuente: 25px;
+@import "variables", "header" , "body" , "footer";
 
-body {
-    margin: 0px;
-    padding: 0px;
-    background-color: beige;
-  }
+
   
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: $color-principal;
-    padding: 20px;
-  }
+ 
   .navbar-nav { font-size: $tam-fuente - 5px;
     background-color: $color-principal;
   
@@ -95,24 +84,7 @@ body {
     height: 500px;
   }
   
-  footer {
-    padding: 20px;
-  
-    ul {
-      display: flex;
-      justify-content: center;
-  
-      li a {
-        color: white;
-        font-weight: bold;
-        width: 100px;
-        background-color: darksalmon;
-        padding: 20px;
-        border-radius: 15px;
-        gap: 10px;
-      }
-    }
-  }
+ 
   
   p {
     &.parrafo_section_uno, &.parrafo_section_dos, &.parrafo_main {
