@@ -1,5 +1,4 @@
  
-@mixin listHorizontal {
     
 
 footer {
@@ -10,7 +9,7 @@ footer {
       justify-content: center;
   
       li a {
-        @include listHorizontal;
+        
         color: white;
         font-weight: bold;
         width: 100px;
@@ -21,5 +20,5 @@ footer {
       }
     }
   }
-}
+
 

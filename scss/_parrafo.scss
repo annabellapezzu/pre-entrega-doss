@@ -1,0 +1,17 @@
+
+p {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .parrafo {
+    
+    color: rgb(207, 11, 11);
+    background-color: bisque;
+    text-align: center;
+  }
+ p {
+    &.parrafo_section_uno, &.parrafo_section_dos, &.parrafo_main {
+      font-size:$tam-fuente - 5px;
+    }
+  }
